@@ -1,11 +1,8 @@
-# Meme-Generator
-(First React Project with API)
-This is my first project built with React and integrated with an API. It's a simple meme generator that allows users to add custom text to random meme images.
+# React + Vite
 
-The app fetches meme images from the Imgflip API and lets users add their own top and bottom text. When the user clicks the button, a new meme image is loaded, and the text remains intact.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Features:
+Currently, two official plugins are available:
 
-Fetches random meme images from the Imgflip API.
-Allows users to add custom text (top and bottom) to the meme image.
-Button to load a new meme image without refreshing the page.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
